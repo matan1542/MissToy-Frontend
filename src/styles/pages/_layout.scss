@@ -1,0 +1,53 @@
+/* TOYLIST */
+.page-container{
+    font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+  
+.toy-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: .3rem;
+}
+.toy-filter-main-container{
+    display: flex;
+    justify-content: center;
+}
+.toy-filter-container{
+    box-shadow: 0 0 3px 0;
+    padding: .4rem;
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    .toy-filter-controlles-container{
+        display: flex;
+        justify-content:space-between;
+        min-width:250px;
+        
+      
+    }
+   
+    @include for-mobile-layout {
+        flex-direction: column;
+        min-width:250px;
+        .toy-filter-controlles-container{
+            &>*{
+                margin-bottom: rem(10px);
+            }
+            flex-direction: column;
+        }
+    }
+
+    @include for-normal-layout {
+        flex-direction:row;
+        flex-wrap:nowrap;
+        .toy-filter-controlles-container{
+            flex-direction: row;
+        }
+      
+    }
+   
+
+}

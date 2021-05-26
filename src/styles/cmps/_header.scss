@@ -1,0 +1,47 @@
+.main-header{
+    font-size:1.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+    background-color: #2f3640;
+    padding: .8rem;
+}
+.main-header-logo:hover{
+    color: #0097e6;
+}
+
+.main-header >*{
+    color: #fff;
+}
+.links-header-list{
+    display: flex;
+    align-items:center;
+}
+.links-header-list nav a{
+    padding:.2rem;
+    color: #fff;
+}
+.links-header-list nav a:hover{
+    color: #0097e6;
+}
+
+.header-list{
+    display: flex;
+}
+.user-info{
+    display: flex;
+    h3{
+        &:hover{
+            color: #0097e6;
+        }
+    }
+}
+.btn-links{
+    color: #fff;
+    border: none;
+    background-color:inherit;
+    cursor: pointer;
+    &:hover{
+        color: #0097e6;
+    }
+}

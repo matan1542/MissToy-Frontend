@@ -1,0 +1,79 @@
+
+.btn{
+    padding: .2rem;
+    border-radius:.2rem;
+    background-color:inherit;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn-details{
+    border: 2px solid #00a651;
+    color: rgb(32, 32, 32);
+
+    &:hover{
+        background-color: #00a651;
+        color: #fff;
+    }
+}
+
+.btn-remove{
+    color: #eb2f06;
+    font-size: 1.4rem;
+    border: none;
+    background-color: inherit;
+
+    &:hover{
+        color: rgb(37, 37, 37);
+    }
+}
+
+.btn-submit{
+    border: 2px solid #00a651;
+
+
+    &:hover{
+        background-color: #00a651;
+        color: #fff;
+    }
+}
+
+
+.btn-add{
+    align-self: center;
+    margin-inline-start: .4rem;
+    color: #3c40c6;
+    border: 2px solid #3c40c6;
+  
+    &:hover{
+        color: #fff;
+        background-color: #3c40c6;
+    }
+}
+
+.btn-edit{
+    color: #ffc048;
+    font-size: 1.4rem;
+    border: none;
+    background-color: inherit;
+    &:hover{
+        color: rgb(39, 38, 38);
+
+    }
+}
+
+
+
+.btn-toy-details{
+    font-size:1.4rem;
+}
+
+.btn-go-back{
+    align-self: flex-start;
+   font-size:2rem;
+    border: none;
+    margin: .5rem;
+    &:hover{
+        color: rgb(51, 50, 50);
+    }
+}
+

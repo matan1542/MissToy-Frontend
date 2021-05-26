@@ -1,0 +1,20 @@
+.about-page {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.about-page {
+  .map-about {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+}
+
+.btn-location-container{
+    text-align: center;
+    padding-block: 20px;
+}
+.btn-location-container{
+    button{
+        margin-inline-end: rem(4px);
+    }
+}
